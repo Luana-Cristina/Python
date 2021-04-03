@@ -11,8 +11,8 @@ volume = math.pi * (r**2) * h
 print ("Volume: {:.2f}cm3".format(volume))
 
 if volume <= 10:
-    print ("Mova o cilindro para o GALPÃO 1! ")
+    print ("Mova o cilindro: GALPÃO 1! ")
 elif volume > 10 and volume < 15:
-     print ("Mova o cilindro para o GALPÃO 2! ")
+     print ("Mova o cilindro: GALPÃO 2! ")
 else:
-     print ("Mova o cilindro para o GALPÃO 3! ")
+     print ("Mova o cilindro: GALPÃO 3! ")
