@@ -1,8 +1,14 @@
-nome = input("Informe seu nome: ")
-sobrenome = input("Infome seu sobrenome: ")
+print('-------------------------------------------------')
+print('Vamos contar as letras das palavras com no máximo 10 caracteres?')
+print('-------------------------------------------------')
 
-if len(nome) + len(sobrenome) <= 10:
-    valor = int(len(nome) + len(sobrenome))
-    print(f"valido {valor}")
+p1 = input("Informe a primeira palavra: ")
+print('-------------------------------------------------')
+p2 = input("Infome a segunda palavra: ")
+print('-------------------------------------------------')
+
+if len(p1) + len(p2) <= 10:
+    valor = int(len(p1) + len(p2))
+    print(f"As palavras informadas possuem {valor} caracteres no total!")
 else:
-    print("erro")
+    print("Exedeu o limite de caracteres!")
